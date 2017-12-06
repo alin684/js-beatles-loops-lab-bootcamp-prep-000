@@ -17,7 +17,11 @@ function johnLennonFacts(array) {
 
 function iLoveTheBeatles(number) {
   var newArray = [];
-  
+  do {
+    array.push("I love the Beaatles!");
+    number++;
+  } while (number < 15);
+  return newArray;
 }
 
 function maybeTrue() {
@@ -26,7 +30,7 @@ function maybeTrue() {
 
 function doWhileLoop(array) {
   do {
-    array.pop();
+
   } while (array.length > 0 && maybeTrue());
   return array;
 }
